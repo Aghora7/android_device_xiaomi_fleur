@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_device_xiaomi_mt6781-common",
+    "target_path": "device/xiaomi/mt6781-common"
+  }
+]
