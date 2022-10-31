@@ -9,6 +9,9 @@ include device/xiaomi/mt6781-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/fleur
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := fleur,miel
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
