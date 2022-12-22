@@ -91,4 +91,7 @@ PRODUCT_COPY_FILES += \
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# SELinux
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+
 -include vendor/xiaomi/fleur/BoardConfigVendor.mk
