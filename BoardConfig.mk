@@ -18,7 +18,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a55
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := fleur
+TARGET_OTA_ASSERT_DEVICE := fleur,fleurp,miel,mielp
 
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
