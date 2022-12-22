@@ -81,4 +81,7 @@ PRODUCT_COPY_FILES += \
 	$(TARGET_PREBUILT_DTB):dtb.img \
 	$(TARGET_PREBUILT_KERNEL):kernel \
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 -include vendor/xiaomi/fleur/BoardConfigVendor.mk
