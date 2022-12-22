@@ -47,6 +47,12 @@ PRODUCT_PACKAGES_DEBUG += \
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-com.mediatek.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.mediatek.ims.xml \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
