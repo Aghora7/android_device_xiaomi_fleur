@@ -20,6 +20,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a55
 # Assert
 TARGET_OTA_ASSERT_DEVICE := fleur,fleurp,miel,mielp
 
+# Assertions
+TARGET_BOARD_INFO_FILE := device/xiaomi/fleur/board-info.txt
+
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
